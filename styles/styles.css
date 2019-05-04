@@ -1,48 +1,47 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 }
 
-
-#top{
+#top {
 	background-image: url(../images/image_back.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
 }
-#top h1{
+#top h1 {
 	font-family: Arimo;
 	text-shadow: 4px 4px 10px #000000;
 }
 
-.hello{
+.hello {
 	padding: 200px 100px;
 	font-size: 3em;
 	color: #eeeeee;
 	vertical-align: middle;
 }
 
-html{
+html {
 	background-color: lightgray;
 }
 
-main{
+main {
 	width: 1400px;
 	margin: 0 auto;
 }
 
-.content{
+.content {
 	color: #222222;
 	display: table;
 }
-.about-me{
+.about-me {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	height: 500px;
 }
 
-.intro{
+.intro {
 	background-color: lightgreen;
 	width: 45%;
 	margin: 0 4% 0 0;
@@ -51,19 +50,19 @@ main{
 	border-radius: 50px;
 	box-shadow: 2px 2px 8px #000000;
 }
-.intro h2{
+.intro h2 {
 	text-align: center;
 	font-size: 3.5em;
 	padding-bottom: 35px;
 	padding-top: 45px;
 }
-.intro p{
+.intro p {
 	color: #333333;
 	font-size: 1.7em;
 	padding: 0px 40px;
 }
 
-.visual{
+.visual {
 	width: 45%;
 	margin: 0 0 0 4%;
 	float: right;
@@ -72,18 +71,17 @@ main{
 	border-radius: 50px;
 	box-shadow: 2px 2px 8px #000000;
 }
-#portrait{
+#portrait {
 	border-radius: 200px;
 	margin: 35px auto 0 auto;
 	display: block;
 }
 
-.contact-info{
+.contact-info {
 	width: 90%;
 	margin: 25px auto;
-
 }
-.contact-col{
+.contact-col {
 	width: 50%;
 	display: block;
 	float: left;
@@ -97,47 +95,44 @@ main{
 	color: red;
 }
 
-
-
-
-.projects{
+.projects {
 	clear: both;
 }
-#pro-header{
+#pro-header {
 	text-align: center;
 	font-size: 5em;
 }
-.project{
+.project {
 	margin-bottom: 100px;
 	height: 500px;
 }
-.pro-quito{
+.pro-quito {
 	margin-top: 100px;
 }
-.preview{
+.preview {
 	width: 45%;
 	float: left;
 	height: 100%;
 	border-radius: 50px;
 	box-shadow: 2px 2px 8px #000000;
 }
-.about{
+.about {
 	width: 45%;
 	float: left;
 	height: 100%;
 	border-radius: 50px;
 	box-shadow: 2px 2px 8px #000000;
 }
-.prequito{
+.prequito {
 	background-color: yellow;
 	margin: 0 4% 0 0;
 }
-.prepic{
+.prepic {
 	border: 5px solid #222222;
 	margin: 85px auto 0 auto;
 	display: block;
 }
-.pregit{
+.pregit {
 	text-align: center;
 	text-decoration: none;
 	display: block;
@@ -145,44 +140,40 @@ main{
 	color: #222222;
 	margin-top: 40px;
 }
-.pregit:hover{
+.pregit:hover {
 	color: blue;
 }
-.ab-quito{
+.ab-quito {
 	background-color: violet;
 	margin: 0 0 0 4%;
 }
 
-.pre-temp{
+.pre-temp {
 	background-color: crimson;
 	margin: 0 0 0 4%;
 }
 
-.ab-temp{
+.ab-temp {
 	background-color: steelblue;
 	margin: 0 4% 0 0;
 }
-.about{
-
+.about {
 	font-size: 1.8em;
 }
-.about h2{
+.about h2 {
 	text-align: center;
 	padding-top: 45px;
 	padding-bottom: 25px;
 }
-.about p{
+.about p {
 	padding: 0 35px;
 }
 
-
-
-
-.foot{
+.foot {
 	height: 120px;
 	background-color: white;
 }
-footer p{
+footer p {
 	text-align: right;
 	padding-right: 15%;
 	padding-top: 50px;
