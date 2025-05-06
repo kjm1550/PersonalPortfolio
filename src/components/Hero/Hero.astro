@@ -1,12 +1,17 @@
 ---
-import Tile from './Tile.jsx'
+import Tiles from "./Tiles.astro";
 
 const rows = 12;
 const columns = 12;
 const totalTiles = rows * columns;
---- 
+---
 
-<div class={` relative w-dvw h-dvh p-0.5 bg-gradient-to-br from-dark-green from-20% via-blue via-65% to-rust to-90% bg-size-[200%] animate-change-background grid grid-cols-12 grid-rows-12`}>
-{[...Array(totalTiles)].map((tile, index) => (<Tile client:load />))}
-<h1 class="absolute text-gray-200 lg:text-8xl  text-4xl justify-self-center self-center text-center">Hello I am Kyle,<br/> a Web developer</h1>
+<div
+  class={`relative w-dvw h-dvh p-1 bg-gradient-to-br from-dark-green from-20% via-blue via-65% to-rust to-90% bg-size-[200%] animate-change-background flex justify-center items-center`}
+>
+  <!-- {[...Array(totalTiles)].map((tile, index) => <Tile index={index} />)} -->
+  <Tiles client:load />
+  <h1 class="text-gray-200 lg:text-8xl text-4xl text-center absolute">
+    Hello I am Kyle,<br /> a Web developer
+  </h1>
 </div>
