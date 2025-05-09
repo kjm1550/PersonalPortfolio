@@ -1,0 +1,18 @@
+{
+    "title": "About Me",
+    "copy": "I am a dedicated web developer with a keen eye for detail and a passion for innovative solutions. Whether it's coding responsive interfaces or integrating APIs for dynamic content, I am committed to delivering cutting-edge solutions that not only meet, but exceed user expectations. I utilize my 6+ years of professional experience to craft engaging, accessible, and dynamic web sites.",
+    "tools": [
+        {"toolName": "JavaScript", "imageFileName":"javascript-icon"},
+        {"toolName": "TypeScript", "imageFileName":"typescript-icon"},
+        {"toolName": "React", "imageFileName":"react-icon"},
+        {"toolName": "Next.js", "imageFileName":"nextjs-icon"},
+        {"toolName": "Astro", "imageFileName":"astro-icon"},
+        {"toolName": "Node.js", "imageFileName":"nodejs-icon"},
+        {"toolName": "SQL", "imageFileName":"sql-icon"},
+        {"toolName": "Git", "imageFileName":"git-icon"},
+        {"toolName": "Figma", "imageFileName":"figma-icon"},
+        {"toolName": "Tailwind", "imageFileName":"tailwind-icon"},
+        {"toolName": "Motion", "imageFileName":"motion-icon"},
+        {"toolName": "GSAP", "imageFileName":"gsap-icon"}
+    ]
+}

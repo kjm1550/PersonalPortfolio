@@ -1,15 +1,28 @@
 ---
-const tools = [{},{}];
+import aboutMe from "./aboutMe.json";
+import Card from "./card.astro";
 ---
 
-<div class="bg-gray-950 py-80 max-w-7xl mx-auto">
-    <div class="px-4 md:px-6 lg:px-10 flex flex-col gap-10">
-        <h2 class="text-gray-50 text-5xl whitespace-nowrap flex gap-20 items-center after:content-[''] after:h-1.5 after:w-full after:bg-rust">About Me</h2>
-        <p class="pl-20 py-2 border-l-6 border-l-rust text-gray-100 text-xl">This is some text about me and what I do as a web developer</p>
-        <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1">
-            {tools.map((tool) => (
-                <div class="bg-light-green hover:bg-blue transition-colors p-3 flex flex-col justify-center items-center">Chicken</div>
-            ))}
-        </div>
+<div class="bg-gray-950 py-60 max-w-7xl mx-auto">
+  <div class="px-4 md:px-6 lg:px-10 flex flex-col gap-10">
+    <h2
+      class="text-gray-50 text-5xl whitespace-nowrap flex gap-20 items-center after:content-[''] after:h-1.5 after:w-full after:bg-rust"
+    >
+      {aboutMe.title}
+    </h2>
+    <p class="pl-20 py-4 border-l-6 border-l-rust text-gray-100 text-xl">
+      {aboutMe.copy}
+    </p>
+    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
+      {
+        aboutMe.tools.map((tool, index) => (
+          <Card
+            key={index}
+            toolName={tool.toolName}
+            imageFileName={tool.imageFileName}
+          />
+        ))
+      }
     </div>
+  </div>
 </div>
