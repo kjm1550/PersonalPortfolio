@@ -1,0 +1,55 @@
+{
+    "title": "My Work",
+    "workExamples": [
+        {
+            "siteName": "Impact Networking",
+            "siteURL": "https://www.impactmybiz.com/",
+            "siteDescription": "Created almost 70 modules. Migrated over 1000 'blog' posts. HubSpot integrations on the forms. Used Lottie, Framer Motion, and CSS to create many animations and interactions. Integrates with a job post api for the job board.",
+            "siteTools": ["Next.js", "React", "Strapi CMS", "Framer Motion", "Emotion", "Lottie"],
+            "image" : {
+                "url": "/projects/Impact-Networking.png",
+                "alt": "Screenshot of the homepage of the Impact Networking site."
+            }
+        },
+        {
+            "siteName": "ePIPE",
+            "siteURL": "https://whyrepipe.com/",
+            "siteDescription": "Improved visiters by 21% and form completions by 12%. Used Framer Motion and CSS to create multiple animations, including my favorite the Contact Us button. ",
+            "siteTools": ["Next.js", "React", "Strapi CMS", "Framer Motion", "Emotion"],
+            "image" : {
+                "url": "/projects/ePIPE.png",
+                "alt": "Screenshot of the homepage of the ePIPE site."
+            }
+        },
+        {
+            "siteName": "ZMac",
+            "siteURL": "https://www.zmactransport.com/",
+            "siteDescription": "Created a board of all available shipments for transportation, data was pulled from an api and allowed users to request to transport the shipment",
+            "siteTools": ["Next.js", "React", "Strapi CMS", "Emotion"],
+            "image" : {
+                "url": "/projects/ZMac.png",
+                "alt": "Screenshot of the homepage of the ZMac site."
+            }
+        },
+        {
+            "siteName": "Wize Load",
+            "siteURL": "https://www.wizeload.com/",
+            "siteDescription": "Created a custom and module site for the client. The forms are integrated with HubSpot and their own api.",
+            "siteTools": ["Next.js", "React", "Strapi CMS", "Emotion"],
+            "image" : {
+                "url": "/projects/Wize-Load.png",
+                "alt": "Screenshot of the homepage of the Wize Load site."
+            }
+        },
+        {
+            "siteName": "Zenar Crane",
+            "siteURL": "https://www.zenarcrane.com/",
+            "siteDescription": "Used my WordPress starter theme to create an custom theme.",
+            "siteTools": ["WordPress", "jQuery", "SASS", "AOS", "GSAP"],
+            "image" : {
+                "url": "/projects/Zenar-Crane.png",
+                "alt": "Screenshot of the homepage of the Zenar site."
+            }
+        }
+    ]
+}
