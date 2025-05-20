@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --color-base-green: oklch(43% 0.1 170);
+    --color-dark-green: oklch(36% 0.08 170);
+    --color-light-green: oklch(50% 0.12 166);
+
+    --color-rust: oklch(47% 0.13 47);
+    --color-blue: oklch(37% 0.04 260);
+
+    --animate-change-background: change-background 8s ease-in-out infinite;
+    @keyframes change-background {
+        0%, 100% {
+            background-position: 0% center;
+          }
+          
+        50% {
+            background-position: 100% center;
+          }
+    }
+  }
