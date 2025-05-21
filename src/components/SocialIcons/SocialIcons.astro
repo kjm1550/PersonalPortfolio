@@ -1,0 +1,39 @@
+---
+const { height: string = "44px" } = Astro.props;
+
+let gitHubSvgString: string;
+let linkedinSvgString: string;
+const gitHubIconModule = await import(
+  `../../assets/social-icons/github-icon.svg?raw`
+);
+const linkedinIconModule = await import(
+  `../../assets/social-icons/linkedin-icon.svg?raw`
+);
+gitHubSvgString = gitHubIconModule.default;
+linkedinSvgString = linkedinIconModule.default;
+---
+
+<ul class="social-icons flex gap-6">
+  <li>
+    <a href="https://github.com/kjm1550" target="_blank">
+      <Fragment set:html={gitHubSvgString} />
+    </a>
+  </li>
+  <li>
+    <a href="https://www.linkedin.com/in/kylejmonk" target="_blank">
+      <Fragment class="test" set:html={linkedinSvgString} />
+    </a>
+  </li>
+</ul>
+
+<style define:vars={{ height: string }}>
+  .social-icons :global(svg) {
+    fill: var(--color-gray-200);
+    width: auto;
+    height: var(--height);
+    transition: fill 0.15s ease-in-out;
+  }
+  .social-icons :global(svg):hover {
+    fill: var(--color-light-green);
+  }
+</style>
