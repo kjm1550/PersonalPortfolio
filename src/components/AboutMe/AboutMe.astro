@@ -3,14 +3,16 @@ import aboutMe from "./aboutMe.json";
 import Card from "./card.astro";
 ---
 
-<div class="py-60 max-w-7xl mx-auto">
-  <div class="px-4 md:px-6 lg:px-10 flex flex-col gap-10">
+<div class="py-50 max-w-7xl mx-auto">
+  <div class="px-6 md:px-8 lg:px-10 flex flex-col gap-10">
     <h2
       class="text-gray-50 text-5xl whitespace-nowrap flex gap-20 items-center after:content-[''] after:h-1.5 after:w-full after:bg-rust"
     >
       {aboutMe.title}
     </h2>
-    <p class="pl-20 py-4 border-l-6 border-l-rust text-gray-100 text-xl">
+    <p
+      class="pl-8 sm:pl-20 py-4 border-l-6 border-l-rust text-gray-100 text-xl"
+    >
       {aboutMe.copy}
     </p>
     <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
