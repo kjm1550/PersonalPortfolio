@@ -7,7 +7,7 @@
             "siteDescription": "Created almost 70 modules. Migrated over 1000 'blog' posts. HubSpot integrations on the forms. Used Lottie, Framer Motion, and CSS to create many animations and interactions. Integrates with a job post api for the job board.",
             "siteTools": ["Next.js", "React", "Strapi CMS", "Framer Motion", "Emotion", "Lottie"],
             "image" : {
-                "url": "/projects/Impact-Networking.png",
+                "url": "/projects/Impact-Networking.jpg",
                 "alt": "Screenshot of the homepage of the Impact Networking site."
             }
         },
@@ -17,7 +17,7 @@
             "siteDescription": "Improved visiters by 21% and form completions by 12%. Used Framer Motion and CSS to create multiple animations, including my favorite the Contact Us button. ",
             "siteTools": ["Next.js", "React", "Strapi CMS", "Framer Motion", "Emotion"],
             "image" : {
-                "url": "/projects/ePIPE.png",
+                "url": "/projects/ePIPE.jpg",
                 "alt": "Screenshot of the homepage of the ePIPE site."
             }
         },
@@ -27,7 +27,7 @@
             "siteDescription": "Created a board of all available shipments for transportation, data was pulled from an api and allowed users to request to transport the shipment",
             "siteTools": ["Next.js", "React", "Strapi CMS", "Emotion"],
             "image" : {
-                "url": "/projects/ZMac.png",
+                "url": "/projects/ZMac.jpg",
                 "alt": "Screenshot of the homepage of the ZMac site."
             }
         },
@@ -37,7 +37,7 @@
             "siteDescription": "Created a custom and module site for the client. The forms are integrated with HubSpot and their own api.",
             "siteTools": ["Next.js", "React", "Strapi CMS", "Emotion"],
             "image" : {
-                "url": "/projects/Wize-Load.png",
+                "url": "/projects/Wize-Load.jpg",
                 "alt": "Screenshot of the homepage of the Wize Load site."
             }
         },
@@ -47,7 +47,7 @@
             "siteDescription": "Used my WordPress starter theme to create an custom theme.",
             "siteTools": ["WordPress", "jQuery", "SASS", "AOS", "GSAP"],
             "image" : {
-                "url": "/projects/Zenar-Crane.png",
+                "url": "/projects/Zenar-Crane.jpg",
                 "alt": "Screenshot of the homepage of the Zenar site."
             }
         }
