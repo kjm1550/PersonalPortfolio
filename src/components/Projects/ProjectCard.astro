@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import { Image } from "astro:assets";
 
 const { siteName, siteURL, siteDescription, siteTools, image } = Astro.props;
 ---
@@ -31,7 +31,13 @@ const { siteName, siteURL, siteDescription, siteTools, image } = Astro.props;
     {
       image && (
         <a href={siteURL} target="_blank">
-          <Image src={image.url} alt={image.alt} width="800" height="450" class="rounded-sm transition-all grayscale-75 hover:grayscale-0 brightness-95 hover:brightness-105" />
+          <Image
+            src={image.url}
+            alt={image.alt}
+            width="800"
+            height="450"
+            class="rounded-sm transition-all md:grayscale-75 hover:grayscale-0 md:brightness-95 hover:brightness-105"
+          />
         </a>
       )
     }

@@ -4,7 +4,7 @@
         {
             "siteName": "Impact Networking",
             "siteURL": "https://www.impactmybiz.com/",
-            "siteDescription": "Created almost 70 modules. Migrated over 1000 'blog' posts. HubSpot integrations on the forms. Used Lottie, Framer Motion, and CSS to create many animations and interactions. Integrates with a job post api for the job board.",
+            "siteDescription": "Created almost 70 modules. Migrated over 1000 'blog' posts. All forms are integrated with HubSpot. Used Lottie, Framer Motion, and CSS to create many animations and interactions. Integrates with a job post api for the job board.",
             "siteTools": ["Next.js", "React", "Strapi CMS", "Framer Motion", "Emotion", "Lottie"],
             "image" : {
                 "url": "/projects/Impact-Networking.jpg",
@@ -14,7 +14,7 @@
         {
             "siteName": "ePIPE",
             "siteURL": "https://whyrepipe.com/",
-            "siteDescription": "Improved visiters by 21% and form completions by 12%. Used Framer Motion and CSS to create multiple animations, including my favorite the Contact Us button. ",
+            "siteDescription": "Improved number of visiters by 28% and form completions by 16%. Used Framer Motion and CSS to create multiple animations, including my favorite, the pill button hover animation. ",
             "siteTools": ["Next.js", "React", "Strapi CMS", "Framer Motion", "Emotion"],
             "image" : {
                 "url": "/projects/ePIPE.jpg",
@@ -24,7 +24,7 @@
         {
             "siteName": "ZMac",
             "siteURL": "https://www.zmactransport.com/",
-            "siteDescription": "Created a board of all available shipments for transportation, data was pulled from an api and allowed users to request to transport the shipment",
+            "siteDescription": "Created a board of all available shipments for transportation, data was pulled from an api and allowed a user to request to transport the shipment",
             "siteTools": ["Next.js", "React", "Strapi CMS", "Emotion"],
             "image" : {
                 "url": "/projects/ZMac.jpg",
@@ -34,7 +34,7 @@
         {
             "siteName": "Wize Load",
             "siteURL": "https://www.wizeload.com/",
-            "siteDescription": "Created a custom and module site for the client. The forms are integrated with HubSpot and their own api.",
+            "siteDescription": "Created a custom and module site for the client that allows the web site to grow with the company. The forms are integrated with HubSpot and their own api.",
             "siteTools": ["Next.js", "React", "Strapi CMS", "Emotion"],
             "image" : {
                 "url": "/projects/Wize-Load.jpg",
@@ -44,7 +44,7 @@
         {
             "siteName": "Zenar Crane",
             "siteURL": "https://www.zenarcrane.com/",
-            "siteDescription": "Used my WordPress starter theme to create an custom theme.",
+            "siteDescription": "Used my personal WordPress starter theme to create an custom theme to meet all of the clients needs.",
             "siteTools": ["WordPress", "jQuery", "SASS", "AOS", "GSAP"],
             "image" : {
                 "url": "/projects/Zenar-Crane.jpg",
